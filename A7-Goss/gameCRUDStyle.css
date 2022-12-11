@@ -1,0 +1,115 @@
+body {
+    background-color: lightblue !important;
+    margin: 0;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+}
+
+.selected {
+    background-color: lightgreen;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#addAndUpdate {
+    border: solid thick black;
+    border-radius: 20px;
+    background-color: lightblue;
+    width: 75%;
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: lightgray;
+    border-radius: 15px !important;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+td {
+    font-size: 18px;
+}
+
+table tr:first-child {
+    background-color: orange;
+    color: Black;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+table tr td, table tr th{
+    border: solid thin black;
+    padding: 20px;
+    text-align: center;
+}
+
+table tr td:last-child, table tr th:last-child{
+    width: 200px;
+}
+
+.hidden {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    background-color: orange;
+    color: black !important;
+    border-bottom: solid thick black;
+    border-left: dashed thick black;
+    border-right: dashed thick black;
+    border-radius: 10px;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    color: lightgrey;
+    padding: 10px;
+    text-decoration: underline;
+    font-family: arial;
+}
+
+body button:first-child {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightyellow;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+#buttons {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.gameInput {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.gameLabel {
+    margin-left: 20px;
+}
+
+.upsertButton {
+    margin-left: 20px;
+}
